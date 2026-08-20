@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | OUSSEINI INTERNATIONAL BUSINESS</title>
+<meta name="description" content="Contactez OUSSEINI INTERNATIONAL BUSINESS à Malanville, Bénin — téléphone, WhatsApp, e-mail et formulaire de contact.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect width=%2240%22 height=%2240%22 fill=%22%230B1E39%22/><text x=%2220%22 y=%2226%22 font-family=%22sans-serif%22 font-size=%2214%22 fill=%22%234FA8E0%22 text-anchor=%22middle%22 font-weight=%22bold%22>OIB</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="19" stroke="#4FA8E0" stroke-width="1.4"/>
+        <path d="M6 20h28M20 6c5 4 5 24 0 28M20 6c-5 4-5 24 0 28" stroke="#0B1E39" stroke-width="1.1"/>
+      </svg>
+      OUSSEINI <span style="color:var(--blue);">·</span> International Business
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="activites.html">Activités</a>
+      <a href="partenariats.html">Partenariats</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Nous contacter</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Parlons de votre projet</h1>
+    <p>Décrivez-nous votre besoin — sourcing, distribution, partenariat — et nous revenons vers vous rapidement.</p>
+  </div>
+</section>
+
+<section class="white">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <p class="eyebrow">Coordonnées</p>
+      <dl>
+        <dt>Localisation</dt><dd>Malanville, Bénin</dd>
+        <dt>Téléphone</dt><dd class="placeholder">à compléter</dd>
+        <dt>WhatsApp</dt><dd class="placeholder">à compléter</dd>
+        <dt>E-mail</dt><dd class="placeholder">à compléter</dd>
+        <dt>Horaires</dt><dd>Lun – Ven, 8h – 17h</dd>
+      </dl>
+      <div class="social-row">
+        <a href="#" class="placeholder">WhatsApp</a>
+        <a href="#" class="placeholder">LinkedIn</a>
+        <a href="#" class="placeholder">Facebook</a>
+      </div>
+      <div class="map-frame">
+        <iframe title="Localisation Malanville, Bénin" src="https://www.google.com/maps?q=Malanville,Benin&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <form>
+      <div>
+        <label for="name">Nom complet</label>
+        <input id="name" type="text" placeholder="Votre nom" required>
+      </div>
+      <div>
+        <label for="company">Entreprise (optionnel)</label>
+        <input id="company" type="text" placeholder="Nom de votre entreprise">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="vous@entreprise.com" required>
+      </div>
+      <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" rows="5" placeholder="Décrivez votre besoin ou votre projet de partenariat"></textarea>
+      </div>
+      <button type="submit">Envoyer la demande</button>
+    </form>
+  </div>
+</section>
+
+<section class="pale">
+  <div class="wrap" style="max-width:760px;">
+    <div class="section-head" style="margin-bottom:20px;">
+      <p class="eyebrow">Questions fréquentes</p>
+      <h2>FAQ</h2>
+    </div>
+
+    <div class="faq-item">
+      <h3>Quels services proposez-vous ? <span class="mark">+</span></h3>
+      <p>Commerce international, import-export, distribution, logistique, partenariats commerciaux et développement d'affaires.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Dans quels pays travaillez-vous ? <span class="mark">+</span></h3>
+      <p>Nous sommes basés au Bénin et développons progressivement nos échanges avec l'Afrique de l'Ouest et les marchés internationaux.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Comment devenir partenaire ? <span class="mark">+</span></h3>
+      <p>Contactez-nous via le formulaire ou WhatsApp en décrivant votre activité — nous étudions chaque proposition individuellement.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Comment vous contacter ? <span class="mark">+</span></h3>
+      <p>Par téléphone, WhatsApp, e-mail ou via le formulaire de cette page. Nous répondons sous 48h ouvrées.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Quels types de produits recherchez-vous ? <span class="mark">+</span></h3>
+      <p>Cela dépend des opportunités en cours — n'hésitez pas à nous soumettre votre offre pour évaluation.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 OUSSEINI INTERNATIONAL BUSINESS. Tous droits réservés.</span>
+    <span>Malanville, Bénin</span>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-item h3').forEach(function(h3){
+    h3.addEventListener('click', function(){
+      h3.parentElement.classList.toggle('open');
+    });
+  });
+</script>
+
+</body>
+</html>
